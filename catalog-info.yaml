@@ -12,6 +12,6 @@ spec:
     #- ./components/yelb-db/yelb-db.yaml
     #- ./components/yelb-appserver/yelb-appserver.yaml
     - ./groups/org.yaml
-    #- ./systems/yelb-system.yaml
+    - ./systems/ejie-system1.yaml
     #- ./resources/yelb-db-resource.yaml
     - ./domains/cloudejie-domain.yaml
