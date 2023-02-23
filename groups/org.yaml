@@ -22,5 +22,6 @@ metadata:
 spec:
   targets:
     - ./it-dept.yaml
-    #- ./team-a-group.yaml
+    - ./cloudops-dept.yaml
+    
     
