@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yelb-ui
-  description: Yelb UI App
+  name: app01-ui
+  description: App01 UI
   tags:
     - javascript
   annotations:
@@ -15,6 +15,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-spring
-  system: service-001
-  dependsOn: [Component:yelb-appserver]
+  owner: cloudops
+  system: ejie-system1
+  #dependsOn: [Component:yelb-appserver]
