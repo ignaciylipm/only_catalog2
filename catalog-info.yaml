@@ -7,7 +7,7 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    #- ./components/yelb-ui/yelb-ui.yaml
+    - ./components/app01-ui/app01-ui.yaml
     #- ./components/redis-server/redis-server.yaml
     #- ./components/yelb-db/yelb-db.yaml
     #- ./components/yelb-appserver/yelb-appserver.yaml
