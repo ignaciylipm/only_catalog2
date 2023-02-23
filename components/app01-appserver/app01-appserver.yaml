@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yelb-appserver
-  description: Yelb App Server
+  name: app01-appserver
+  description: app01 App Server
   tags:
     - python
   annotations:
@@ -11,5 +11,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-java
-  system: service-001
+  owner: cloudops
+  system: ejie-system1
