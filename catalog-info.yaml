@@ -14,4 +14,4 @@ spec:
     - ./groups/org.yaml
     #- ./systems/yelb-system.yaml
     #- ./resources/yelb-db-resource.yaml
-    #- ./domains/cloudapps-domain.yaml
+    - ./domains/cloudejie-domain.yaml
