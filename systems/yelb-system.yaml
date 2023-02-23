@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: service-001
+  description: Service 001
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: team-java
+  domain: cloud-apps
