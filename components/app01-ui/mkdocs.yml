@@ -1,4 +1,4 @@
-site_name: 'yelb-ui'
+site_name: 'app01-ui'
 
 nav:
   - Home: index.md
