@@ -16,7 +16,7 @@ metadata:
 spec:
   type: service
   consumesApis:
-   - demo-api
+   - app01-api
   lifecycle: experimental
   owner: cloudops
   system: ejie-system1
