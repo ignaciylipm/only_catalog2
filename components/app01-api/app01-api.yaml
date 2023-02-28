@@ -21,7 +21,7 @@ spec:
       /pet/findByStatus?status=available:
         get:
           summary: List all pets
-      /v3/user/login
+      /v3/user/login:
         get:
           summary: List users
 
