@@ -3,6 +3,10 @@ kind: API
 metadata:
   name: app01-api
   description: API app01
+  links:
+    - url: https://petstore.swagger.io/
+      title: API Petstore
+      icon: docs
 spec:
   type: openapi
   lifecycle: experimental
