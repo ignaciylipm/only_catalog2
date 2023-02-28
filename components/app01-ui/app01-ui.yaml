@@ -7,11 +7,11 @@ metadata:
     - javascript
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=yelb-ui,tier=frontend'
-    #'backstage.io/techdocs-ref': dir:.
-    'backstage.io/techdocs-ref': github:https://github.com/ignaciylipm/only_catalog2/tree/main/components/app01-ui
+    'backstage.io/techdocs-ref': dir:.
+    #'backstage.io/techdocs-ref': github:https://github.com/ignaciylipm/only_catalog2/tree/main/components/app01-ui
   links:
-    - url: https://yelb-ui.example.com
-      title: 'Yelb UI Information'
+    - url: https://app01-ui.example.com
+      title: 'App01 Information'
       icon: locallibrary
 spec:
   type: service
