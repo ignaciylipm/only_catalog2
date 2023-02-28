@@ -18,10 +18,10 @@ spec:
     servers:
       - url: https://petstore3.swagger.io/api/v3
     paths:
-      /pet/findByStatus?status=available:
+      - /pet/findByStatus?status=available:
         get:
           summary: List all pets
-      /v3/user/login:
+      - /v3/user/login:
         get:
           summary: List users
 
