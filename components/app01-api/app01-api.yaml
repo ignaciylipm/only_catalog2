@@ -17,7 +17,7 @@ spec:
       license:
         name: MIT
     servers:
-      - url: https://petstore3.swagger.io/api/v3/
+      - url: https://petstore3.swagger.io/api/v3
     paths:
       /pet/findByStatus?status=available:
         get:
