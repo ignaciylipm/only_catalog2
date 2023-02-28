@@ -11,7 +11,7 @@ spec:
   definition: |
     openapi: "3.0.0"
     info:
-      version: 1.0.0
+      version: 1.0.17
       title: Pet API
       license:
         name: MIT
@@ -21,4 +21,7 @@ spec:
       /pet/findByStatus?status=available:
         get:
           summary: List all pets
+      /v3/user/login
+        get:
+          summary: List users
 
