@@ -7,5 +7,19 @@ spec:
   type: openapi
   lifecycle: production
   owner: user:guest
-  definition:
-    $openapi: https://api.apis.guru/v2/openapi.yaml
+#  definition:
+#    $openapi: https://api.apis.guru/v2/openapi.yaml
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Pet API
+      license:
+        name: MIT
+    servers:
+      - url: https://petstore3.swagger.io/api/v3/
+    paths:
+      /pet/findByStatus?status=available:
+        get:
+          summary: List all pets
+
