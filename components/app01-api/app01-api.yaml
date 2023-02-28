@@ -5,8 +5,9 @@ metadata:
   description: API app01
 spec:
   type: openapi
-  lifecycle: production
-  owner: user:guest
+  lifecycle: experimental
+  owner: cloudops
+  system: ejie-system1
 #  definition:
 #    $openapi: https://api.apis.guru/v2/openapi.yaml
   definition: |
