@@ -8,8 +8,6 @@ spec:
   lifecycle: experimental
   owner: cloudops
   system: ejie-system1
-#  definition:
-#    $openapi: https://api.apis.guru/v2/openapi.yaml
   definition: |
     openapi: "3.0.0"
     info:
